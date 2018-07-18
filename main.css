@@ -1,0 +1,168 @@
+.food {
+    display: inline-block;
+    width: 90%;
+}
+
+.cursor {
+    box-sizing: border-box;
+    padding-top:122px;
+    /*padding-top: 10%;*/
+    height:100%;
+    width: 5%;
+}
+
+#left-cursor {
+    width: 28px;
+    height: 52px;
+    color: black;
+}
+
+#right-cursor {
+    width: 28px;
+    height: 52px;
+    color: black;
+}
+
+#left {
+    float:left;
+}
+
+#right {
+    //background: url("https://files.slack.com/files-pri/TB74J70J0-FBSMHRB45/right.png") no-repeat;
+    float:right;
+}
+
+.food-menu {
+    vertical-align: top;
+    box-sizing: border-box;
+    padding: 1%;
+    display: inline-block;
+    width: 24%;
+    height: 100%;
+
+}
+
+.row {
+    margin: 0 auto;
+    width: 1200px;
+    height: 600px;
+}
+
+.adevelop-border {
+    border: 3px black solid;
+}
+
+.title-containter {
+    height: 20%;
+    text-align: center;
+    font-family: "Noto Sans KR Bold", sans-serif;
+}
+
+.main-title {
+    font-size: 34px;
+}
+
+.sub-title {
+    font-size: 18px;
+    color: dimgrey;
+    font-weight: bold;
+}
+
+
+
+
+
+.food {
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 1%;
+    height: 100%;
+}
+
+.menu-container {
+    height: 70%;
+    background-color: white;
+    text-align: center;
+    display: block;
+    overflow: auto;
+
+}
+
+
+.food-img {
+    height: 220px;
+    width: 220px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.food-description {
+    height: 160px;
+}
+
+.food-title {
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    height: 30px;
+}
+
+.food-subcription {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    height: 20px;
+}
+
+.food-score {
+    height: 20px;
+}
+
+.food-price{
+    box-sizing: border-box;
+    padding-top: 10px;
+    text-align: center;
+    height:50px;
+}
+
+.food-type{
+    height: 40px;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+.food-type-text{
+    box-sizing: border-box;
+    padding: 4px;
+    color:white;
+    width:100%;
+    font-size:12px;
+}
+
+
+.now-price{
+    font-size : 22px;
+    font-weight: bold;
+    color : #2ac1bc;
+}
+
+.before-price{
+    font-size : 16px;
+}
+
+
+.footer {
+    text-align: center;
+    height: 10%
+}
+
+.button{
+    margin: auto;
+    padding-top:15px;
+    height:60%;
+    width:90%;
+    background-color: white;
+    border: 1px solid lightgray;
+}
