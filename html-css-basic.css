@@ -1,0 +1,101 @@
+
+.header {
+	text-align: center;
+}
+
+
+.contents {
+	position: relative;
+	height: 350px;
+}
+
+.footer {
+	height: 300px;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.header-title {
+	color: #CCC;
+}
+
+.direction-button {
+	float: left;
+	display: inline-block;
+	width: 15%;
+	height: 100%;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 80px;
+	color: #CCC;
+	line-height: 300px;
+}
+
+.item-holder { 
+	float: left;
+	display: inline-block;
+	width: 70%;
+	box-sizing: border-box;
+	padding: 0px;
+	height: 100%;
+	text-align: center;
+}
+
+.item-list {
+	display: inline-block;
+	height: 100%;
+	width: 230px;
+	text-align: center;
+	vertical-align:top;
+}
+
+.btn-all-list {
+	height: 50px;
+	border-style: solid;
+	border-color: #cfcfcf;
+	border-width: 0.7px;
+	text-align: center;
+	line-height: 50px;
+	width: 70%;
+	font-size: 30px;
+	color: #CCC;
+}
+
+.food-img {
+	width: 200px;
+	border-radius: 50%;
+}
+
+.food-title {
+	font-weight: bold;
+	margin: 4px;
+	font-size: 17px;
+}
+
+.food-contents {
+	margin: 4px;
+	font-size: 13px;
+}
+
+.food-price-section {
+
+}
+
+.food-price-section-current {
+	color: #63ecf0;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.food-price-section-original {
+
+}
+
+.food-wow {
+	background-color: #B87E65; 
+	color : white;
+	font-size: 10px;
+	width: 80px;
+	height: 18px;
+	padding: 5px;
+}
