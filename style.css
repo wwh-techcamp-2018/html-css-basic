@@ -1,0 +1,154 @@
+html, body {
+    margin: 50px; auto;
+    
+}
+
+
+
+header, footer {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    width: 1100px;
+    min-width: 1100px;
+    margin: 0px auto;
+
+}
+.list-container {
+    width: 1035px;
+    margin: 0px auto;
+    padding: 0px;
+}
+.btn{
+    position: relative;
+    top: -200px;
+    width: 20px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+}
+.btn-left{
+    background: url(https://cdn.bmf.kr/web/common/btn_prds_thumb_slides_navi.png) 0 0;
+    height: 52px;
+    width: 28px;
+}
+.btn-right{
+    background: url(https://cdn.bmf.kr/web/common/btn_prds_thumb_slides_navi.png) 29px 0;
+    height: 52px;
+    width: 28px;
+}
+ul {
+    list-style-type: none;
+}
+
+li {
+    width: 220px;
+    height: 400px;
+    padding: 10px;
+    display: inline-block;
+}
+
+li img{
+    width: inherit;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.item-info {
+    height: 50px;
+    padding: 10px 0 10px 0;
+}
+
+.item-title {
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.item-description {
+    color: #555;
+    font-size: 13px;
+    text-align: center;
+}
+
+.price-info {
+    text-align: center;
+    color: #2ac1bc;
+    margin-bottom: 10px
+}
+
+.price {
+    font-size: 26px;
+}
+
+.price-unit {
+    position: relative;
+    top: -3px;
+    font-size: 14px;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #bbb;
+    font-size: 13px;
+}
+
+h1 {
+    padding: 0px;
+    margin: 0px;    
+    font-weight: 300;
+}
+
+h4 {
+    color: #999;
+    padding: 0px;
+    margin: 0px;
+    font-weight: normal;
+}
+
+.promotion-badge{
+    margin: auto;
+    padding: 3px;
+    width: 40px;
+    font-size: 9px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: #C5A8A6
+}
+
+section > div {
+    display: inline-block;
+}
+
+footer > a {
+    text-decoration: none;
+    border: 1px solid #ccc;
+    width: 1000px;
+    display: block;
+    padding: 10px;
+    color: #666;
+    margin: auto;
+}
+
+footer > a:hover {
+    text-decoration: none;
+    border: 1px solid #666;
+    width: 1000px;
+    display: block;
+    padding: 10px;
+    color: #666;
+    cursor: pointer;
+}
+
+footer > a > span {
+    color: #ccc;
+}
