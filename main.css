@@ -1,0 +1,90 @@
+div {
+   text-align: center;
+   float: left;
+   width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.h-tag {
+    margin: 0px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 80%;
+    padding-left: 10%;
+}
+
+h5 {
+    font-weight: normal;
+    color: gray;
+}
+
+img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.arrow-btn {
+    font-size: 80px;
+    width: 10%;
+    height: 100px;
+    float: left;
+    padding: 100px 0px;
+    color:lightgrey;
+}
+
+.food-list {
+    width: 75%;
+    float: left;
+}
+
+.food {
+    width: 25%;
+    float: left;
+}
+
+.price {
+    font-size: 25px;
+    color: #2ac1bc;
+    font-weight: bold;
+}
+
+.won {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.origin-price {
+    font-size: 12px;
+    text-decoration: line-through;
+    margin-left: 5px;
+    color:lightgrey;
+}
+
+.sale {
+    font-size: 12px;
+    background-color: #c6a8a5;
+    color: white;
+    padding: 5px;
+}
+
+.sale-div {
+    margin-top: 10px;
+}
+
+.total {
+     padding: 10px 0px;
+     margin: 20px 15%;
+     border: 1px solid lightgray;
+     width: 70%;
+}
+
+.star-point {
+    font-size: 15px;
+    color:#e86c6c;
+
+}
