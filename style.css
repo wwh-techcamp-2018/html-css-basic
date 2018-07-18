@@ -1,0 +1,118 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.title {
+    margin-top: 70px;
+    margin-bottom: 32px;
+}
+
+.title > span {
+    display:block;
+    text-align: center;
+}
+
+span {
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.title-category {
+    color: #999;
+    font-size: 18px;
+}
+
+.title-content {
+    font-size: 34px;
+}
+
+
+.food-list > ul > li{
+    width: 215px;
+    display: inline-block;
+    text-align: center;
+    margin: 0px 15px 8px;
+}
+
+.food-list {
+    text-align: center;
+    max-width: 1980px;
+    margin: 0 auto;
+}
+.food-list > ul {
+    padding-left: 0px;
+    display: inline-block;
+    list-style: none;
+}
+
+.food-list > ul > li> img {
+    border-radius: 50%;
+    height: 215px;
+}
+
+.food-detail > span {
+    width: 215px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+}
+
+.food-detail-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.food-detail-content {
+    font-size: 13px;
+    color: #666;
+}
+
+.food-detail-star {
+    font-size: 26px;
+    color: #2ac1bc;
+    height: 12px;
+    text-indent: -3000px;
+    margin-top: 5px;
+    margin-left: 72px;
+    background: url('https://cdn.bmf.kr/web/common/ico-review-star.png') no-repeat left bottom;
+    background-size: auto 24px;
+    text-align: center;
+}
+
+.food-detail-price {
+    font-size: 26px;
+    color: #2ac1bc;
+}
+
+
+.btn {
+    display:block;
+    border: 1px solid #d7d7d7;
+    margin: 38px auto 50px;
+    width: 958px;
+    color: #444;
+    padding: 17px 0 15px;
+    text-align:center;
+}
+
+.btn > span { 
+    padding-right: 14px;
+    background: url(../../web/main/btn_arr_more.png) no-repeat 100% 3px;
+}
+
+.left {
+    float: left;
+    left: 250px;
+    top: 70px;
+    font-size: 120px;
+    color: lightgray;
+    position: relative;
+}
+
+.right {
+    float: right;
+    right: 250px;
+    top: 70px;
+    font-size: 120px;
+    color: lightgray;
+    position: relative;
+}
