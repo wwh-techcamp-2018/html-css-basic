@@ -1,0 +1,138 @@
+/* * {
+    border: 1px solid gray;
+} */
+
+h1, h2, h3, h4, h5, p, ul, li {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+ul > li {
+    display: inline-block;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+.contents {
+    position: relative;
+}
+
+.arrow {
+    position: absolute;
+    background: url(./img/btn_prds_thumb_slides_navi.png);
+    width: 28px;
+    height: 52px;
+    top: 90px;
+}
+
+.arrow-left {
+    background-position: left top;
+}
+
+.arrow-right {
+    background-position: right top;
+    right: 0;
+}
+
+.button {
+    width: 90%;
+    border: 1px solid #d7d7d7;
+    text-align: center;
+    padding: 17px 0 15px 0;
+    margin: 40px auto;
+}
+
+.button > img {
+    margin-left: 4px;
+}
+
+.category-title {
+    color: #999;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.category-description {
+    margin-bottom: 15px;
+    font-weight: lighter;
+}
+
+.food-info {
+    width: 20%;
+    margin: 0 15px 0 15px;
+}
+
+.food-thumbnail {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.name {
+    margin: 5px 10px;
+}
+
+.description {
+    color: #666;
+    font-size: 13px;
+    margin: 0 10px;
+}
+
+.star-box {
+    margin-top: 5px;
+}
+
+.star-box-bg {
+    display: inline-block;
+    width: 67px;
+    height: 12px;
+    background: url(./img/ico-review-star.png) no-repeat left bottom;
+    background-size: auto 24px;
+}
+
+.star-count {
+    color: #b4b4b4;
+    font-size: 14px;
+}
+
+.price {
+    margin: 5px 0;
+    font-size: 24px;
+    color: #2ac1bc;
+    font-weight: bold;
+}
+
+.won {
+    font-size: 14px;
+}
+
+.price-before {
+    margin-left: 8px;
+    font-size: 12px;
+    color: #b4b4b4;
+}
+
+.special-price-tag {
+    background-color: #c6a8a5;
+    display: inline-block;
+    padding: 4px 2px;
+    min-width: 52px;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.hidden {
+    visibility: hidden;
+}
