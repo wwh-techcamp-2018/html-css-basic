@@ -1,0 +1,119 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    height: 600px;
+    width: 100%;
+}
+
+.contents {
+    grid-column: auto;
+    display: grid;
+    grid-template-rows: 20% 70% 10%;
+    height: 100%;
+}
+
+.contents-title {
+    grid-row: auto;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.contents-list {
+    grid-row: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    margin: 0;
+    padding: 0;
+    min-height: 0;  /* NEW */
+    min-width: 0;   /* NEW; needed for Firefox */
+    list-style: none;
+}
+
+.contents-list > li {
+    grid-column:auto;
+    padding: 0 1rem;
+    height: 100%;
+    min-width: 0;      /* NEW; needed for Firefox */
+    min-height: 0;
+    overflow: hidden;  /* NEW */
+}
+
+.button {
+    grid-column: auto;
+    height: 100%;
+    text-align: center;
+}
+
+.thumb-img > img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+dl {
+    margin-top: 20px;
+    text-align: center;
+}
+
+dd {
+    margin: 0px;
+}
+
+.prd-tlt {
+    font-weight: 700;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.prd-description {
+    font-weight: 400;
+    font-size: 13px;
+    color: #666666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.selling-price {
+    font-weight: 700;
+    text-align: center;
+    font-size: 26px;
+    color: #2ac1bc;
+}
+
+.selling-price > .original-price {
+    font-size: 16px;
+    color: #999999;
+}
+
+.review-count {
+    color: #666666;
+}
+
+p {
+    margin: 0;
+}
+
+.contents-total {
+    border: 1px solid #d7d7d7;
+    text-align: center;
+    padding: 20px 0;
+    grid-row: auto;
+}
+
+.badge-area {
+    margin: 20px;
+}
+
+.badge.launching {
+    width: 30%;
+    margin: 0 auto;
+    background: #c6a8a5;
+    color: white;
+    font-size: 13px;
+}
