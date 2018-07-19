@@ -5,8 +5,7 @@
 
 
 .contents {
-	position: relative;
-	height: 350px;
+	height: 300px;
 }
 
 .footer {
@@ -21,9 +20,7 @@
 
 .direction-button {
 	float: left;
-	display: inline-block;
 	width: 15%;
-	height: 100%;
 	vertical-align: middle;
 	text-align: center;
 	font-size: 80px;
@@ -33,18 +30,15 @@
 
 .item-holder { 
 	float: left;
-	display: inline-block;
 	width: 70%;
 	box-sizing: border-box;
 	padding: 0px;
-	height: 100%;
 	text-align: center;
 }
 
 .item-list {
-	display: inline-block;
-	height: 100%;
-	width: 230px;
+	float: left;
+	width: 25%;
 	text-align: center;
 	vertical-align:top;
 }
@@ -59,10 +53,11 @@
 	width: 70%;
 	font-size: 30px;
 	color: #CCC;
+	margin-top: 20px;
 }
 
 .food-img {
-	width: 200px;
+	width: 80%;
 	border-radius: 50%;
 }
 
@@ -70,15 +65,22 @@
 	font-weight: bold;
 	margin: 4px;
 	font-size: 17px;
+	white-space: nowrap;
+	overflow: auto;
+	text-overflow: ellipsis;
 }
 
 .food-contents {
-	margin: 4px;
 	font-size: 13px;
+	margin: 0px;
+	white-space: nowrap;
+	overflow: auto;
+	text-overflow: ellipsis;
 }
 
 .food-price-section {
-
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 .food-price-section-current {
