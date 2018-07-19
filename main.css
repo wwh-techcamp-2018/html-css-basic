@@ -1,0 +1,148 @@
+ul {
+    list-style: none;
+}
+
+.layout {
+    text-align: center;
+}
+
+
+.title {
+    text-align: center;
+        width: 1200px;
+        margin: 20px 50px;
+
+}
+
+.dish_detail {
+    display: inline-block;
+    width:200px;
+    height:30px;
+}
+
+#dishs {
+    color: #999;
+}
+
+#dishs_description {
+    font-size: 25px;
+    font-weight: 350;
+}
+
+.contents {
+    width: 1200px;
+    height:250px;
+    margin: 0px 50px;
+}
+
+
+#left {
+    width:100px;
+    padding-top : 100px;
+    float : left;
+}
+#right {
+    width:100px;
+    padding-top: 100px;
+    float: right;
+}
+#left_image {
+    width : 25px;
+    height : auto;
+}
+#right_image {
+    width : 25px;
+    height : auto;
+}
+
+#right_image_small {
+    width : 7px;
+    height : auto;
+    1margin: 1px;
+}
+
+.dish_list {
+    float : left;
+    text-align: center;
+    width : 250px;
+}
+
+.dish_image {
+    border-radius: 50%;
+    width : 220px;
+    padding-bottom: 15px;
+}
+
+.dish_title {
+    font-weight: bold;
+}
+
+.dish_description {
+    font-size: 12px;
+    color: gray;
+}
+
+.dish_ratingstar {
+    display: inline-block;
+    width : 215px;
+    height : 20px;
+}
+
+.dish_ratingstar_image {
+    width : 100px;
+    height : auto;
+}
+
+
+.dish_price{
+    font-size: 22px;
+    color : #2ac1bc;
+    font-weight : 700;
+}
+
+.dish_price_original{
+    font-size: 14px;
+    color : #888;
+    font-weight : 350;
+    text-decoration:line-through;
+}
+
+.launching_area {
+    display: inline-block;
+    text-align: center;
+    width : 200px;
+    height : 23px;
+    text-align: center;
+}
+
+.launching_price {
+    margin:auto;
+    background: #c6a8a5;
+    width : 50px;
+    height : 20px;
+    font-size: 10px;
+    box-sizing:border-box;
+    font-weight: 500;
+    color : white;
+    padding : 5px 2px;
+    margin-top : 10px;
+}
+
+
+.showAll {
+text-align: center;
+    width: 1200px;
+    height: 50px;
+    margin: 150px 0px 0px 50px;
+}
+
+#showAll_Container {
+    font-size: 14px;
+    display: inline-block;
+    width: 1000px;
+    height: 40px;
+    border:1px solid lightgray;
+    padding-top: 10px;
+    box-sizing:border-box;
+    color : #444;
+}
